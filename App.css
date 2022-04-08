@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* override existing theme style */
+.ag-theme-balham {
+--ag-odd-row-background-color: null;
+--ag-header-background-color: null;
+}
+
+.ag-header-group-text{
+  color:black;
+  font-size: small;
+  font-weight: bold;
+}
+/*
+.ag-theme-balham .ag-icon-asc::before {
+  font-weight: bold;
+  --ag-icon:'\f107';
+  
+}
+*/
+
